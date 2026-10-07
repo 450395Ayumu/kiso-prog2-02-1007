@@ -6,7 +6,7 @@ int main(void)
     int i;
 
     for (i = 1; i <= 20; i++) {
-        printf("%2d: %s\n", i, (i % 2 == 0) ? "ウサギ" : "カメ");
+        printf("%2d: %s\n", i, (i % 10 == 0) ? "だれ" :((i % 2 == 0) ? "❤️" : "👎"));
     }
     return 0;
 }
